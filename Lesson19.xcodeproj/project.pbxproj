@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		AA218E091CC3D374000FD2AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA218E081CC3D374000FD2AF /* main.m */; };
 		AA218E0C1CC3D374000FD2AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA218E0B1CC3D374000FD2AF /* AppDelegate.m */; };
-		AA218E0F1CC3D374000FD2AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA218E0E1CC3D374000FD2AF /* ViewController.m */; };
+		AA218E0F1CC3D374000FD2AF /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA218E0E1CC3D374000FD2AF /* RootTableViewController.m */; };
 		AA218E121CC3D374000FD2AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA218E101CC3D374000FD2AF /* Main.storyboard */; };
 		AA218E141CC3D374000FD2AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA218E131CC3D374000FD2AF /* Assets.xcassets */; };
 		AA218E171CC3D374000FD2AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA218E151CC3D374000FD2AF /* LaunchScreen.storyboard */; };
+		AA218E201CC3D55B000FD2AF /* PaintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA218E1F1CC3D55B000FD2AF /* PaintViewController.m */; };
+		AA218E231CC3D584000FD2AF /* HintView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA218E221CC3D584000FD2AF /* HintView.m */; };
+		AA218E261CC3EB0E000FD2AF /* HintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA218E251CC3EB0E000FD2AF /* HintViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		AA218E081CC3D374000FD2AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA218E0A1CC3D374000FD2AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA218E0B1CC3D374000FD2AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AA218E0D1CC3D374000FD2AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA218E0E1CC3D374000FD2AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA218E0D1CC3D374000FD2AF /* RootTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		AA218E0E1CC3D374000FD2AF /* RootTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
 		AA218E111CC3D374000FD2AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA218E131CC3D374000FD2AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA218E161CC3D374000FD2AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA218E181CC3D374000FD2AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA218E1E1CC3D55B000FD2AF /* PaintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintViewController.h; sourceTree = "<group>"; };
+		AA218E1F1CC3D55B000FD2AF /* PaintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintViewController.m; sourceTree = "<group>"; };
+		AA218E211CC3D584000FD2AF /* HintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HintView.h; sourceTree = "<group>"; };
+		AA218E221CC3D584000FD2AF /* HintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HintView.m; sourceTree = "<group>"; };
+		AA218E241CC3EB0E000FD2AF /* HintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HintViewController.h; sourceTree = "<group>"; };
+		AA218E251CC3EB0E000FD2AF /* HintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HintViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +69,19 @@
 			children = (
 				AA218E0A1CC3D374000FD2AF /* AppDelegate.h */,
 				AA218E0B1CC3D374000FD2AF /* AppDelegate.m */,
-				AA218E0D1CC3D374000FD2AF /* ViewController.h */,
-				AA218E0E1CC3D374000FD2AF /* ViewController.m */,
+				AA218E0D1CC3D374000FD2AF /* RootTableViewController.h */,
+				AA218E0E1CC3D374000FD2AF /* RootTableViewController.m */,
 				AA218E101CC3D374000FD2AF /* Main.storyboard */,
 				AA218E131CC3D374000FD2AF /* Assets.xcassets */,
 				AA218E151CC3D374000FD2AF /* LaunchScreen.storyboard */,
 				AA218E181CC3D374000FD2AF /* Info.plist */,
 				AA218E071CC3D374000FD2AF /* Supporting Files */,
+				AA218E1E1CC3D55B000FD2AF /* PaintViewController.h */,
+				AA218E1F1CC3D55B000FD2AF /* PaintViewController.m */,
+				AA218E211CC3D584000FD2AF /* HintView.h */,
+				AA218E221CC3D584000FD2AF /* HintView.m */,
+				AA218E241CC3EB0E000FD2AF /* HintViewController.h */,
+				AA218E251CC3EB0E000FD2AF /* HintViewController.m */,
 			);
 			path = Lesson19;
 			sourceTree = "<group>";
@@ -149,9 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA218E0F1CC3D374000FD2AF /* ViewController.m in Sources */,
+				AA218E0F1CC3D374000FD2AF /* RootTableViewController.m in Sources */,
+				AA218E261CC3EB0E000FD2AF /* HintViewController.m in Sources */,
 				AA218E0C1CC3D374000FD2AF /* AppDelegate.m in Sources */,
 				AA218E091CC3D374000FD2AF /* main.m in Sources */,
+				AA218E231CC3D584000FD2AF /* HintView.m in Sources */,
+				AA218E201CC3D55B000FD2AF /* PaintViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

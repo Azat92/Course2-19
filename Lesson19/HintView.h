@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PaintView.h
 //  Lesson19
 //
 //  Created by Azat Almeev on 17.04.16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HintView : UIView
 
 @end
-
