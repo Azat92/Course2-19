@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "89BF22F99C7871BE135F03FB4C75AEDFB00C4B90",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F444530EA05E325E3E0562A78342DBBE68A6AD27" : 0,
+    "89BF22F99C7871BE135F03FB4C75AEDFB00C4B90" : 0,
+    "66F677A90FC50DCAFA27B0DC1A4C81A758C7D950" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "74E0A3AE-4FC2-426E-B701-DE0BC26DAFB9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F444530EA05E325E3E0562A78342DBBE68A6AD27" : "",
+    "89BF22F99C7871BE135F03FB4C75AEDFB00C4B90" : "Course2-19\/",
+    "66F677A90FC50DCAFA27B0DC1A4C81A758C7D950" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Lesson19",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Lesson19.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/Timofeeva_11-405\/timofeevam_11-405.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "66F677A90FC50DCAFA27B0DC1A4C81A758C7D950"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MariMiMari\/Course2-19.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "89BF22F99C7871BE135F03FB4C75AEDFB00C4B90"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/Timofeeva_11-405\/projects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F444530EA05E325E3E0562A78342DBBE68A6AD27"
+    }
+  ]
+}

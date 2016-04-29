@@ -21,7 +21,7 @@
         UIGraphicsBeginImageContextWithOptions(self.imageView.bounds.size, NO, UIScreen.mainScreen.scale);
         _context = UIGraphicsGetCurrentContext();
         CGContextSetLineWidth(_context, 1);
-        CGContextSetStrokeColorWithColor(_context, UIColor.blackColor.CGColor);
+        CGContextSetStrokeColorWithColor(_context, [[UIColor blackColor] CGColor]);
     }
     return _context;
 }
